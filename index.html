@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Koperasi Digital - Solusi Manajemen KSP / KSPPS / BMT Modern</title>
+  <meta name="description"
+    content="Solusi Aplikasi Koperasi No. 1: Sistem Simpan Pinjam Online dan Software Koperasi Offline (Desktop/LAN). Kelola anggota, simpanan, pinjaman, dan laporan keuangan koperasi sesuai standar SAK-EP & Permenkop 2024." />
+  <meta name="keywords"
+    content="aplikasi koperasi, software simpan pinjam, sistem informasi koperasi, manajemen anggota koperasi, aplikasi bmt syariah, software koperasi terbaik" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand">
+          <span class="brand-text"><i class="fas fa-handshake"></i>koperasiku</span>
+        </a>
+        <div class="mobile-toggle" id="mobile-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse" id="nav-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">Beranda</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Produk <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="pages/koperasi-offline.html">Koperasi Offline</a></li>
+              <li><a href="pages/koperasi-online.html">CMS Auliasoft</a></li>
+            </ul>
+          </li>
+          <li><a href="#harga">Harga</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#kontak-form">Kontak</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section Redesign -->
+  <section class="hero-new" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-container">
+      <div class="hero-text-side">
+        <h1 class="fade-in">Solusi Digitalisasi Koperasi Praktis & Terpercaya</h1>
+        <p class="fade-in delay-1">Pilih sistem yang sesuai dengan kebutuhan Anda: Aplikasi Desktop Offline yang stabil
+          atau CMS Online yang aksesibel dari mana saja.</p>
+        <div class="hero-btns fade-in delay-2" style="display: flex; gap: 15px; flex-wrap: wrap;">
+          <a href="pages/koperasi-offline.html" class="btn-primary-glow">
+            <i class="fas fa-desktop"></i>
+            <span>Coba Trial Offline</span>
+          </a>
+        </div>
+      </div>
+      <div class="hero-mockup-side fade-in delay-3">
+        <div class="hero-mockup-hero">
+          <div class="premium-laptop">
+            <div class="laptop-screen">
+              <div class="laptop-notch">
+                <div class="laptop-camera"></div>
+              </div>
+              <div class="laptop-bezel">
+                <div class="laptop-display">
+                  <img src="img/offline-apps.png" alt="AuliaSoft Koperasi Offline Display">
+                </div>
+              </div>
+            </div>
+            <div class="laptop-base"></div>
+            <div class="ambient-glow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offline Section -->
+  <section id="offline" class="split-section">
+    <div class="container-flex">
+      <div class="content-half fade-in">
+        <div class="image-wrapper">
+          <img src="img/offline-apps.png" alt="Aplikasi Koperasi Offline Desktop" class="mockup-isometric">
+        </div>
+      </div>
+      <div class="content-half fade-in">
+        <span class="section-subtitle">Desktop & LAN Edition</span>
+        <h2 class="section-title">Koperasi Offline (AuliaSoft Desktop)</h2>
+        <p>Solusi manajemen koperasi yang berjalan di komputer lokal (PC/Laptop) tanpa ketergantungan internet. Sangat
+          cepat, stabil, dan data tersimpan aman di tangan Anda sendiri.
+        </p>
+        <ul class="list-check" style="margin-bottom: 2rem; color: #64748b;">
+          <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Transaksi LAN Super Cepat</li>
+          <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Database Lokal (D:) Aman</li>
+          <li><i class="fas fa-check-circle" style="color: var(--primary-color);"></i> Sekali Bayar (Lisensi Selamanya)
+          </li>
+        </ul>
+        <a href="pages/koperasi-offline.html" class="btn-primary-glow"
+          style="background: var(--primary-color); color: white; padding: 1.1rem 2.8rem; border-radius: 50px; font-weight: 800; text-decoration: none; display: inline-flex; align-items: center; gap: 10px;">
+          <span>Coba Sekarang</span>
+          <i class="fas fa-arrow-right"></i>
+
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="online" class="split-section" style="background: white;">
+    <div class="container-flex">
+      <div class="content-half fade-in">
+        <span class="section-subtitle">Full Cloud & Web-Based</span>
+        <h2 class="section-title">CMS Auliasoft (Koperasi Online)</h2>
+        <p>Akses data koperasi Anda dari mana saja dan kapan saja. Dilengkapi dengan dashboard pengurus realtime dan
+          integrasi aplikasi Android untuk anggota (M-Aulia) dan Kolektor (E-Aulia).
+        </p>
+        <ul class="list-check" style="margin-bottom: 2rem; color: #64748b;">
+          <li><i class="fas fa-check-circle" style="color: var(--secondary-color);"></i> Akses Via Browser & HP</li>
+          <li><i class="fas fa-check-circle" style="color: var(--secondary-color);"></i> Dashboard Pengurus Realtime
+          </li>
+          <li><i class="fas fa-check-circle" style="color: var(--secondary-color);"></i> Terintegrasi M-Aulia & E-Aulia
+          </li>
+        </ul>
+        <a href="https://play.google.com/store/apps/details?id=com.cms.aulia&pli=1" target="_blank"
+          class="btn-primary-glow"
+          style="background: #2563eb; color: white; padding: 1.1rem 2.8rem; border-radius: 50px; font-weight: 800; text-decoration: none; display: inline-flex; align-items: center; gap: 10px;">
+          <span>Install Sekarang</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="content-half fade-in">
+        <div class="image-wrapper">
+          <img src="img/cms-aulia.png" alt="CMS Auliasoft Online Dashboard" class="mockup-tablet">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fitur Utama Redesign -->
+  <section id="fitur" class="features-center-layout">
+    <div class="container">
+      <div class="features-header">
+        <h2 class="title-bold">SOLUSI MANAJEMEN KOPERASI TERPADU</h2>
+        <p class="subtitle-blue">Didesain Khusus untuk KSP / KSPPS / BMT</p>
+      </div>
+
+      <div class="features-symmetric-grid">
+        <!-- Left Side Features -->
+        <div class="features-side left-align">
+          <div class="feature-item-alt">
+            <div class="fi-icon"><i class="fas fa-globe"></i></div>
+            <div class="fi-text">
+              <h4>SIMPAN PINJAM ONLINE</h4>
+              <p>Sistem manajemen simpan pinjam berbasis Cloud dengan laporan Akuntansi lengkap (Neraca, Cash Flow)
+                dan integrasi data anggota real-time.</p>
+            </div>
+          </div>
+          <div class="feature-item-alt">
+            <div class="fi-icon"><i class="fas fa-desktop"></i></div>
+            <div class="fi-text">
+              <h4>KOPERASI OFFLINE DESKTOP</h4>
+              <p>Kecepatan transaksi simpan pinjam LAN super stabil. Data tersimpan aman di server lokal sebagai Core
+                Database
+                yang tangguh tanpa tergantung internet.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Center Mockup Laptop -->
+        <div class="features-mockup">
+          <div class="image-wrapper">
+            <img src="img/phone-tablet.png" alt="Solusi Koperasi Terpadu Auliasoft" class="mockup-tablet">
+          </div>
+        </div>
+
+        <!-- Right Side Features -->
+        <div class="features-side right-align">
+          <div class="feature-item-alt">
+            <div class="fi-icon"><i class="fas fa-mobile-screen-button"></i></div>
+            <div class="fi-text">
+              <h4>DASHBOARD HP PENGURUS</h4>
+              <p>Pantau laporan simpanan, pinjaman, dan rekam jejak keuangan secara real-time dari genggaman Anda.</p>
+            </div>
+          </div>
+          <div class="feature-item-alt">
+            <div class="fi-icon"><i class="fas fa-user-gear"></i></div>
+            <div class="fi-text">
+              <h4>MANAJEMEN ANGGOTA PRO</h4>
+              <p>Kelola data anggota, simpanan pokok/wajib, hingga pembagian SHU secara otomatis dalam satu sistem
+                terpadu.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fitur Lain -->
+  <section id="fitur-lain" style="background: var(--bg-blue-light);">
+    <h2 class="section-title" style="text-align: center;">Fitur Unggulan</h2>
+    <p style="text-align: center; margin-bottom: 4rem;">Fitur cerdas untuk kemajuan Koperasi</p>
+    <div class="features-grid small-features">
+      <div class="feature-card">
+        <i class="fas fa-calculator"></i>
+        <h4>Kalkulasi Otomatis</h4>
+        <p>Bunga simpanan, jasa pinjaman, dan SHU dihitung otomatis oleh sistem dengan akapelar.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-file-invoice-dollar"></i>
+        <h4>Laporan Akuntansi</h4>
+        <p>Neraca, Laba Rugi, dan Arus Kas tersedia kapan saja sesuai standar Kemenkop.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-users"></i>
+        <h4>Manajemen Anggota</h4>
+        <p>Kelola ribuan data anggota dengan mudah, lengkap dengan riwayat transaksi mereka.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-user-shield"></i>
+        <h4>Log Aktivitas & Audit</h4>
+        <p>Rekam jejak setiap perubahan data untuk keamanan maksimal dan audit transparan.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-hand-holding-dollar"></i>
+        <h4>Komisi Sales Otomatis</h4>
+        <p>Kelola pembagian komisi tim marketing Anda secara otomatis berdasarkan performa harian.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-file-invoice-dollar"></i>
+        <h4>Akuntansi Mendalam</h4>
+        <p>Laporan keuangan profesional Neraca dan Laba Rugi yang akurat setiap saat.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Harga Section -->
+  <section id="harga">
+    <div class="container">
+      <div class="pricing-tabs">
+        <button class="tab-btn active" data-tab="tab-offline">Koperasi Offline (Desktop)</button>
+        <button class="tab-btn" data-tab="tab-online">CMS Auliasoft (Cloud)</button>
+      </div>
+
+      <!-- Grid Koperasi Offline -->
+      <div class="pricing-grid active" id="tab-offline">
+        <!-- Paket BASIC -->
+        <div class="price-card fade-in">
+          <div class="price-header">
+            <div class="price-icon-box" style="background: rgba(30, 41, 59, 0.05); color: #1e293b;">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <span class="price-category">Lisensi Desktop</span>
+            <h3>PAKET BASIC</h3>
+          </div>
+          <div class="price-body">
+            <div class="price-amount">
+              <span class="currency">Rp</span>
+              <span class="value">1.5jt</span>
+              <span class="period">/Lisensi</span>
+            </div>
+            <ul class="price-features">
+              <li><i class="fas fa-check"></i> Single User (1 PC)</li>
+              <li><i class="fas fa-check"></i> Akuntansi Lengkap</li>
+              <li><i class="fas fa-check"></i> Simpan Pinjam Standar</li>
+              <li><i class="fas fa-check"></i> 18 Bulan Support & Service</li>
+              <li><i class="fas fa-check"></i> Konvert Excel / PDF</li>
+            </ul>
+          </div>
+          <div class="price-footer">
+            <a href="https://wa.me/6281241945881?text=Halo%20Auliasoft,%20saya%20ingin%20pesan%20Paket%20Koperasi%20Offline%20BASIC."
+              class="btn-primary-glow" style="width: 100%;">
+              <span>Pesan Sekarang</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Paket STANDAR -->
+        <div class="price-card featured fade-in">
+          <div class="popular-badge">TERLARIS</div>
+          <div class="price-header">
+            <div class="price-icon-box" style="background: rgba(37, 99, 235, 0.1); color: var(--primary-color);">
+              <i class="fas fa-users"></i>
+            </div>
+            <span class="price-category">Lisensi Multi-User</span>
+            <h3>PAKET STANDAR</h3>
+          </div>
+          <div class="price-body">
+            <div class="price-amount">
+              <span class="currency">Rp</span>
+              <span class="value">2.5jt</span>
+              <span class="period">/Lisensi</span>
+            </div>
+            <ul class="price-features">
+              <li><i class="fas fa-check"></i> Multi User (Jaringan LAN)</li>
+              <li><i class="fas fa-check"></i> Akuntansi Lengkap</li>
+              <li><i class="fas fa-check"></i> USP & Simpan Pinjam Pro</li>
+              <li><i class="fas fa-check"></i> 18 Bulan Support & Service</li>
+              <li><i class="fas fa-check"></i> Konvert Excel / PDF</li>
+            </ul>
+          </div>
+          <div class="price-footer">
+            <a href="https://wa.me/6281241945881?text=Halo%20Auliasoft,%20saya%20ingin%20pesan%20Paket%20Koperasi%20Offline%20STANDAR."
+              class="btn-primary-glow" style="width: 100%;">
+              <span>Pesan Sekarang</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Paket PREMIUM -->
+        <div class="price-card fade-in">
+          <div class="price-header">
+            <div class="price-icon-box" style="background: rgba(30, 41, 59, 0.05); color: #1e293b;">
+              <i class="fas fa-crown"></i>
+            </div>
+            <span class="price-category">Fitur Paling Lengkap</span>
+            <h3>PAKET PREMIUM</h3>
+          </div>
+          <div class="price-body">
+            <div class="price-amount">
+              <span class="currency">Rp</span>
+              <span class="value">5.0jt</span>
+              <span class="period">/Lisensi</span>
+            </div>
+            <ul class="price-features">
+              <li><i class="fas fa-check"></i> Multi User & Kantor Cabang</li>
+              <li><i class="fas fa-check"></i> Dashboard Pengurus Online</li>
+              <li><i class="fas fa-check"></i> Akuntansi & Neraca Pro</li>
+              <li><i class="fas fa-check"></i> 18 Bulan Support Prioritas</li>
+              <li><i class="fas fa-check"></i> Export Laporan Kemenkop</li>
+            </ul>
+          </div>
+          <div class="price-footer">
+            <a href="https://wa.me/6281241945881?text=Halo%20Auliasoft,%20saya%20ingin%20pesan%20Paket%20Koperasi%20Offline%20PREMIUM."
+              class="btn-primary-glow" style="width: 100%;">
+              <span>Pesan Sekarang</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grid CMS Auliasoft -->
+      <div class="pricing-grid" id="tab-online">
+        <!-- Dashboard Monitoring -->
+        <div class="price-card fade-in">
+          <div class="price-header">
+            <div class="price-icon-box" style="background: rgba(30, 41, 59, 0.05); color: #1e293b;">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <span class="price-category">Monitoring Realtime</span>
+            <h3>WEB DASHBOARD</h3>
+          </div>
+          <div class="price-body">
+            <div class="price-amount">
+              <span class="currency">Rp</span>
+              <span class="value">300rb</span>
+              <span class="period">/Tahun</span>
+            </div>
+            <ul class="price-features">
+              <li><i class="fas fa-check"></i> Sinkronisasi Laporan Lokal</li>
+              <li><i class="fas fa-check"></i> Pantau via Web & Browser</li>
+              <li><i class="fas fa-check"></i> Dashboard Pengurus Realtime</li>
+              <li><i class="fas fa-check"></i> Login Owner/Owner HP</li>
+              <li><i class="fas fa-check"></i> Keamanan Data Cloud SSL</li>
+            </ul>
+          </div>
+          <div class="price-footer">
+            <a href="https://wa.me/6281241945881?text=Halo%20Auliasoft,%20saya%20ingin%20langganan%20CMS%20Dashboard%20Monitoring."
+              class="btn-primary-glow" style="width: 100%;">
+              <span>Mulai Berlangganan</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Full Cloud Package -->
+        <div class="price-card featured fade-in">
+          <div class="popular-badge">REKOMENDASI</div>
+          <div class="price-header">
+            <div class="price-icon-box" style="background: rgba(37, 99, 235, 0.1); color: var(--primary-color);">
+              <i class="fas fa-cloud-upload-alt"></i>
+            </div>
+            <span class="price-category">Layanan Cloud Lengkap</span>
+            <h3>ONLINE HUB PRO</h3>
+          </div>
+          <div class="price-body">
+            <div class="price-amount">
+              <span class="currency">Rp</span>
+              <span class="value">600rb</span>
+              <span class="period">/Tahun</span>
+            </div>
+            <ul class="price-features">
+              <li><i class="fas fa-check"></i> <b>Menu Operasional:</b> Buku 16 Lengkap</li>
+              <li><i class="fas fa-check"></i> <b>Daftar Laporan:</b> Sync Lokal & G-Drive</li>
+              <li><i class="fas fa-check"></i> Dashboard Pengurus Realtime</li>
+              <li><i class="fas fa-check"></i> Integrasi M-Aulia & E-Aulia</li>
+              <li><i class="fas fa-check"></i> Backup Otomatis & Support 24/7</li>
+            </ul>
+          </div>
+          <div class="price-footer">
+            <a href="https://wa.me/6281241945881?text=Halo%20Auliasoft,%20saya%20ingin%20langganan%20Paket%20Online%20Hub%20Pro."
+              class="btn-primary-glow" style="width: 100%; filter: hue-rotate(15deg);">
+              <span>Mulai Berlangganan</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Akses Cepat Pelanggan CMS (Mobile & Web) -->
+      <div class="cms-access-container fade-in" id="cms-access-box"
+        style="display: none; margin-top: 3rem; text-align: center;">
+        <div
+          style="background: rgba(37, 99, 235, 0.05); padding: 2rem; border-radius: 24px; border: 1px dashed var(--primary-color);">
+          <h4 style="color: var(--primary-color); margin-bottom: 0.5rem; font-weight: 800;">SUDAH JADI PELANGGAN?</h4>
+          <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 1.5rem;">Akses sistem Anda langsung melalui Web
+            Browser atau Aplikasi Mobile</p>
+          <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+            <a href="https://cms.auliasoft.com/" target="_blank" class="btn-outline-primary"
+              style="padding: 0.8rem 1.5rem; border-radius: 50px; font-weight: 700; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+              <i class="fas fa-globe"></i> Masuk Web Dashboard
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.cms.aulia" target="_blank"
+              class="btn-outline-primary"
+              style="padding: 0.8rem 1.5rem; border-radius: 50px; font-weight: 700; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+              <i class="fab fa-google-play"></i> Download App Android
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Preview Section -->
+  <section id="faq">
+    <div class="container container-faq">
+      <h2 class="section-title text-center">Pertanyaan Umum (FAQ)</h2>
+      <p style="text-align: center; color: var(--text-muted); margin-bottom: 3rem; font-size: 0.95rem;">Pertanyaan yang
+        paling sering ditanyakan oleh pelanggan kami</p>
+      <div class="faq-accordion">
+        <div class="faq-category">
+          <p class="faq-category-title"><i class="fas fa-headset"></i> Layanan Koperasi</p>
+          <div class="faq-accordion">
+            <details>
+              <summary>
+                Apakah sistem mendukung perhitungan bunga simpanan pinjaman otomatis? <i
+                  class="fas fa-chevron-down"></i>
+              </summary>
+              <p>Ya, sistem koperasiku mendukung perhitungan bunga simpanan (bulanan/harian) dan pinjaman
+                (flat/efektif/anuitas)
+                secara otomatis sesuai parameter yang ditentukan pengurus.</p>
+            </details>
+          </div>
+        </div>
+        <details>
+          <summary>
+            Apakah ada biaya bulanan untuk Paket Lisensi?
+            <i class="fas fa-chevron-down"></i>
+          </summary>
+          <p>Tidak ada. Paket Lisensi (BASIC, STANDAR, atau PREMIUM) adalah sistem "Sekali Bayar" untuk lisensi
+            selamanya. Anda
+            hanya perlu membayar biaya tambahan jika ingin berlangganan layanan Cloud Add-on tahunan.</p>
+        </details>
+        <details>
+          <summary>
+            Apakah aplikasi bisa berjalan tanpa koneksi internet?
+            <i class="fas fa-chevron-down"></i>
+          </summary>
+          <p>Ya, untuk paket Lisensi Offline/LAN, aplikasi berjalan sepenuhnya secara lokal. Internet hanya dibutuhkan
+            saat aktivasi pertama kali atau jika Anda menggunakan fitur Cloud Add-on.</p>
+        </details>
+        <details>
+          <summary>
+            Apa perbedaan Paket Lisensi dan Paket Full Cloud?
+            <i class="fas fa-chevron-down"></i>
+          </summary>
+          <p>Paket Lisensi (Desktop Offline/LAN) adalah bayar sekali, berjalan di komputer lokal Anda. Paket Cloud
+            (A-POS/E-POS) adalah
+            sewa bulanan, berbasis web penuh dan bisa diakses dari mana saja menggunakan HP, laptop, atau tablet.</p>
+        </details>
+      </div>
+
+      <!-- CTA to Full FAQ Page -->
+      <div style="text-align: center; margin-top: 3rem;">
+        <a href="pages/faq.html" class="btn-simple"
+          style="display: inline-flex; align-items: center; gap: 10px; margin: 0 auto;">
+          Lihat Semua Pertanyaan <i class="fas fa-long-arrow-alt-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak Form Section Redesign -->
+  <section id="kontak-form">
+    <div class="container">
+      <div class="contact-wrapper">
+        <!-- Left Side: Contact Info -->
+        <div class="contact-info">
+          <span class="section-subtitle">Hubungi Kami</span>
+          <h2 class="section-title">Mari Berdiskusi Mengenai Koperasi Anda</h2>
+          <p class="contact-description">Tim ahli kami siap membantu Anda menemukan solusi sistem koperasi terbaik yang
+            sesuai dengan kebutuhan spesifik koperasi Anda.</p>
+
+          <div class="info-items">
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-location-dot"></i></div>
+              <div class="info-text">
+                <h4>Alamat Kantor</h4>
+                <p>Martapura, Kalimantan Selatan, Indonesia</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-phone"></i></div>
+              <div class="info-text">
+                <h4>Telepon / WhatsApp</h4>
+                <p>0812-4194-5881</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-envelope"></i></div>
+              <div class="info-text">
+                <h4>Email Resmi</h4>
+                <p>pt.mitra.aulia.indonesia@gmail.com</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-clock"></i></div>
+              <div class="info-text">
+                <h4>Jam Operasional</h4>
+                <p>Senin - Sabtu: 08.00 - 22.00 WIB</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links-contact">
+            <a href="https://www.instagram.com/auliasoft/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@auliasoftchannel3554" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://wa.me/6281241945881" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Right Side: Contact Form -->
+        <div class="contact-form-container">
+          <form class="premium-contact-form">
+            <div class="form-row">
+              <div class="form-group-alt">
+                <label>Nama Lengkap</label>
+                <input type="text" placeholder="Masukkan nama Anda" required>
+              </div>
+              <div class="form-group-alt">
+                <label>Alamat Email</label>
+                <input type="email" placeholder="email@contoh.com" required>
+              </div>
+            </div>
+            <div class="form-group-alt">
+              <label>Subjek Pesan</label>
+              <input type="text" placeholder="Apa yang ingin Anda tanyakan?" required>
+            </div>
+            <div class="form-group-alt">
+              <label>Pesan Anda</label>
+              <textarea placeholder="Tuliskan detail pertanyaan atau kebutuhan koperasi Anda di sini..." rows="5"
+                required></textarea>
+            </div>
+            <button type="submit" class="btn-primary-glow">
+              <span>Kirim Pesan</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer / Kontak -->
+  <footer id="kontak">
+    <div class="footer-grid">
+      <div class="footer-section">
+        <h4 style="color: white; font-weight: 800; font-size: 1.5rem;">koperasiku</h4>
+        <p>Solusi sistem informasi koperasi dan simpan pinjam modern untuk kemajuan Koperasi Indonesia.</p>
+        <div class="social-icons" style="margin-top: 1.5rem;">
+          <a href="https://www.instagram.com/auliasoft/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@auliasoftchannel3554"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Hukum</h4>
+        <ul class="footer-links">
+          <li><a href="pages/kebijakan-privasi.html">Kebijakan Privasi</a></li>
+          <li><a href="pages/syarat-ketentuan.html">Syarat dan Ketentuan</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Lainnya</h4>
+        <ul class="footer-links">
+          <li><a href="https://panduan.auliasoft.com/" target="_blank">Tutorial</a></li>
+          <li><a href="pages/faq.html">FAQ</a></li>
+          <li><a href="#">Jadi Reseller</a></li>
+          <li><a href="#kontak-form">Hubungi Kami</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Kontak Kami</h4>
+        <p><i class="fas fa-phone"></i> 0812-4194-5881</p>
+        <p><i class="fas fa-envelope"></i>pt.mitra.aulia.indonesia@gmail.com</p>
+        <p><i class="fas fa-location-dot"></i> Martapura, Kalimantan Selatan</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; Copyright 2026 PT Mitra Aulia Indonesia. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
