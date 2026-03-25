@@ -1660,7 +1660,8 @@ footer {
   }
 
   .hero-container {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     gap: 3rem;
   }
@@ -1705,6 +1706,18 @@ footer {
   #online .container-flex {
     flex-direction: column-reverse;
     /* Put image on top for these sections */
+  }
+
+  .features-mockup {
+    width: 100%;
+    max-width: 100% !important;
+    margin: 2rem 0;
+    transform: scale(1.1);
+  }
+
+  .features-mockup .image-wrapper {
+    max-width: 100% !important;
+    padding: 0;
   }
 
   .price-card.featured {
