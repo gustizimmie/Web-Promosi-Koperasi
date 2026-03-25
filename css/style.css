@@ -1688,9 +1688,10 @@ footer {
     margin-bottom: 0.5rem;
   }
 
-  #cocok-untuk .container-flex {
+  #cocok-untuk .container-flex,
+  #online .container-flex {
     flex-direction: column-reverse;
-    /* Put image on top for this section */
+    /* Put image on top for these sections */
   }
 
   .price-card.featured {
@@ -2136,10 +2137,20 @@ footer {
     font-size: 0.85rem;
   }
 
-  .btn-primary-glow {
-    width: 100%;
+  .btn-primary-glow,
+  .btn-outline-primary,
+  .btn-simple,
+  .btn-demo,
+  .btn-secondary-white,
+  .btn-wa,
+  .btn-generate-key {
+    width: 100% !important;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
     font-size: 1rem;
-    padding: 1rem;
+    padding: 1.1rem !important;
   }
 }
 
@@ -2289,26 +2300,138 @@ footer {
   flex-grow: 1;
 }
 
-.btn-try {
+.btn-try,
+.btn-primary-glow,
+.btn-demo {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
   background: var(--primary-color);
   color: white !important;
-  padding: 1rem 2.2rem;
+  padding: 1.1rem 2.8rem;
   border-radius: 50px;
-  font-weight: 700;
+  /* Changed from 16px to 50px for consistency */
+  border-radius: 50px;
+  font-weight: 800;
   text-decoration: none;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
-  font-size: 1rem;
+  font-size: 1.05rem;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2);
 }
 
-.btn-try:hover {
+.btn-try:hover,
+.btn-primary-glow:hover,
+.btn-demo:hover {
   background: #1d4ed8 !important;
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(37, 99, 235, 0.4);
+  color: white !important;
+}
+
+.btn-secondary-white {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white !important;
+  padding: 1.1rem 2.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
+  transition: all 0.3s;
+}
+
+.btn-secondary-white:hover {
+  background: white;
+  color: var(--primary-color) !important;
+  transform: translateY(-3px);
+}
+
+.btn-outline-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: transparent;
+  color: var(--primary-color) !important;
+  border: 2px solid var(--primary-color);
+  padding: 0.9rem 2.2rem;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btn-outline-primary:hover {
+  background: var(--primary-color);
+  color: white !important;
+}
+
+.btn-simple {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--primary-color);
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s;
+  padding: 0.5rem 1rem;
+}
+
+.btn-simple:hover {
+  gap: 15px;
+  opacity: 0.8;
+}
+
+.btn-wa {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #25d366;
+  color: white !important;
+  padding: 1rem 2.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.1rem;
+  box-shadow: 0 10px 20px rgba(37, 211, 102, 0.2);
+  transition: all 0.3s;
+}
+
+.btn-wa:hover {
+  background: #22c55e;
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(37, 211, 102, 0.3);
+  color: white !important;
+}
+
+.btn-generate-key {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white !important;
+  padding: 1.1rem 2.2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1rem;
+  box-shadow: 0 10px 20px rgba(16, 185, 129, 0.2);
+  transition: all 0.3s;
+}
+
+.btn-generate-key:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(16, 185, 129, 0.4);
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
   color: white !important;
 }
 
