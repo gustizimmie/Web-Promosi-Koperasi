@@ -290,7 +290,8 @@ body {
 .premium-laptop {
   position: relative;
   width: 100%;
-  max-width: 1000px; /* Maximum expansion for "Kasiraulia" look */
+  max-width: 1000px;
+  /* Maximum expansion for "Kasiraulia" look */
   margin: 0 auto;
   perspective: 2000px;
   transform-style: preserve-3d;
@@ -549,11 +550,10 @@ body {
   }
 
   .hero-overlay {
-    background: linear-gradient(to bottom, 
-      rgba(15, 23, 42, 0.85) 0%, 
-      rgba(15, 23, 42, 0.7) 40%, 
-      rgba(15, 23, 42, 0.85) 100%
-    );
+    background: linear-gradient(to bottom,
+        rgba(15, 23, 42, 0.85) 0%,
+        rgba(15, 23, 42, 0.7) 40%,
+        rgba(15, 23, 42, 0.85) 100%);
   }
 }
 
@@ -580,7 +580,8 @@ body {
   position: relative;
   z-index: 2;
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr; /* Maximum expansion for laptop space */
+  grid-template-columns: 1.1fr 0.9fr;
+  /* Maximum expansion for laptop space */
   gap: 4rem;
   align-items: center;
   color: white;
@@ -591,7 +592,8 @@ body {
 }
 
 .hero-text-side h1 {
-  font-size: clamp(2.5rem, 6vw, 3.5rem); /* Extra large for Kasiraulia style */
+  font-size: clamp(2.5rem, 6vw, 3.5rem);
+  /* Extra large for Kasiraulia style */
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 1.5rem;
@@ -599,7 +601,8 @@ body {
 }
 
 .hero-text-side p {
-  font-size: 1.25rem; /* Slightly larger for readability */
+  font-size: 1.25rem;
+  /* Slightly larger for readability */
   opacity: 0.9;
   margin-bottom: 2.5rem;
   max-width: 900px;
